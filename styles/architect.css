@@ -78,3 +78,55 @@ body{
     height: 100%;
     width: 100%;
 }
+/* Start Projects section styles */
+.projects{
+    margin: 85px 50px 130px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+.projects-photo{
+    width: 708px;
+    height: 708px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.projects-info{
+width: 100%;
+height: 304px;
+}
+.quick{
+    font-weight: 500;
+font-size: 45px;
+color: #727272;
+}
+.our{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.feature{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.projects-info-description{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-primary-2{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 25px;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    color: #FFFFFF;
+}
