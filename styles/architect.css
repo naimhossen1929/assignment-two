@@ -280,7 +280,7 @@ body {
 
 /* start work section styles */
 .work {
-    margin: 0 144px 130px 240px;
+    margin: 130px 144px 130px 240px;
     
 }
 .work-title{
@@ -317,4 +317,48 @@ margin-bottom: 50px;
     transform: skew(15deg);
     margin-left: 30px;
     margin-right: 30px;
+}
+/* start sponsors styles */
+.sponsors{
+    margin: 0px 144px 130px 240px;
+    text-align: center;
+}
+.sponsors-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+
+}
+.sponsors-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-top: 24px;
+margin-bottom: 50px;
+}
+.company{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+}
+.logo img{
+    filter: sepia(300%) hue-rotate(150deg) saturate(450%);
+}
+/* start footer styles */
+.footer{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 130px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+    width: 1250px;
+    padding: 30px;
+}
+.footer-description{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
 }
