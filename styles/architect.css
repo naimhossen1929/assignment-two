@@ -1,0 +1,80 @@
+/* common styles */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 25px;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    color: #FFFFFF;
+    position: relative;
+    left: 200px;
+}
+
+/* ---------Header Styles----------- */
+.header{
+    padding: 50px 0;
+    background: rgba(255, 144, 14, 0.1);
+    height: 100%;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 240px 116px 228px;
+}
+
+.nav-bar h2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-title {
+    margin: 0px 400px 33px;
+}
+
+.header-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-weight: 700;
+    font-size: 54px;
+    color: #131313;
+}
+
+.header-description {
+    margin: 32px 0;
+    color: #727272;
+    text-align: center;
+}
+.banner{
+    width: 1100px;
+    height: 700px;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
